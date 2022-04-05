@@ -1,11 +1,23 @@
-magrin:0;
+body {
+    margin:0;   
 }
-.lightblue-background {
- height: 150vh;
- background-color: red;
-padding-top: 100px;
-
+.todo-wrapper{
+    height:100vh;
+    background-color: lightskyblue;
+    padding: 80px;
 }
-.white-background {
-
+.white-box{
+    padding: 50px;
+    background-color: beige;
+    margin: 50px;
+    max-width: 1000px;
+    height: 300px;
+}
+.label  h2{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.conteiner-newtodo{
+    border-radius: 6px;  
 }
