@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <tittle>TodoList</tittle>
+        <title>ToDoList</title>
     <link rel ="stylesheet" href="homework2903.css">
    
 </head>
 <body>
-    <div>
+   <header class ="header">
+       <div class="conteiner"> 
+To DoList
+       </div>
+       <div class="conteiner-newtodo">
+           <input class="newtodo" tape="text" name="Newtodo" value="New todo">
+           <input tape="button" class="newtodo" value="+">
+    </div>
+    <div class="list-text">
+        <h3>You have 10 pending items</h3>
+    </div>
+    <div class="list-name">
+        <ul>
+            <li>
+             Read the book <input type="button" class="button-done" value="Done">   
+            </li>
+            <li>
+              Pick a project <input type="button" class="button-done" value="Done">  
+            </li>
+            <li>
+                Go to the Gym <input type="button" class="button-done" value="Done">
+            </li>
+            <li>
+                Learn JS <input type="button" class="button-done" value="Done">
+            </li>
+            <li>
+                Don't forget to it <input type="button" class="button-done" value="Done">
+            </li>
+            <li>
+                Do homework <input type="button" class="button-done" value="Done">
+            </li>
+            <li>
+                Do homework <input type="button" class="button-done" value="Done">
+            </li>
+        </ul>
+    </div>
+
+
+
+   </header>
        
-    <div class="lightblue-background">
-    <div class="white-background">
-    <div class="name-todolist">
-    <h1>TODOLIST</h1>
-    </div>
-    <div class ="New toDo- block">
-    <input class="inputnewtodo" tape="text" name="newtodo" value="New todo">
-    <input tape ="button" class ="inputnewtodo" onclick=alert("Hello!") value="+">
-    </div>
-    <div class ="list-name">You have 10 pending items </div>
-    <div>
-       <ul class="list">
-    <li>Reed the book <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li>Pick a project <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li> Go to the Gym <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li> Learn JS<input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li>Don't forget to eat <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li>Do homewokr <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-<li>Do homewokr <input type="button" class="button-done" onclick=alert"Hello!" value="Done">
-</li>
-       </ul>
-    </div>
-</div>
-</div>
-</div>
+    
 </body>
 </html>
