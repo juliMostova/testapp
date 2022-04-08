@@ -32,19 +32,15 @@ a:hover{text-decoration: none;}
 ul li {list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
-
-
-.example-block{
-    overflow: auto;
-    max-height: 50px;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px 5px blue ;inset: 5px 5px 10px 5px blue;;
-    margin: 10px;
-    
-    
+/* -------------------------- */
+body{
+    padding: 150px 30px 30px 30px;
+    background: url("/img/675d28c04794e3c683f4419536c4c15f_L.jpg") center no-repeat fixed;
 }
+.block{
+height: 300px;
+border-radius: 15px;
+box-shadow: 0 0 10px black;
+background-color: aquamarine;
 
-.example-strim{
-    outline: 4px solid red;
 }
