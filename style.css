@@ -33,14 +33,9 @@ ul li {list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /* -------------------------- */
-body{
-    padding: 150px 30px 30px 30px;
-    background: url("/img/675d28c04794e3c683f4419536c4c15f_L.jpg") center no-repeat fixed;
-}
-.block{
-height: 300px;
-border-radius: 15px;
-box-shadow: 0 0 10px black;
-background-color: aquamarine;
 
+body{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
 }
