@@ -14,7 +14,7 @@ body {
     margin: 30px;
     background-color: beige;
     max-width: 1000px;
-    height: 400px;
+    height: 500px;
     border-radius: 6px;
     box-shadow: 0 0 10px black;
     
@@ -33,8 +33,9 @@ body {
     background: #E5E5E5;
     border-radius: 6px;
     margin-left: 50px;
+    width: 150px;
    
-    
+ 
 }
 .list-text{
     color: #09165F;
@@ -59,6 +60,7 @@ body {
 
 .list-name li{
  margin-left: 80px;
+ padding: 10px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -69,18 +71,14 @@ body {
   
 }
 .button-done{
-    position: static;
-    width: 42px;
-    height: 21px;
-    left: 10px;
-    top: 10px;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 133.02%;
-/* or 21px */
-
-
-letter-spacing: 0.035em;
+  background-color: #536dff;
+  width: 40px;
+  height: 30px;
+  border: 0px solid white;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 8px;
+  float: right;
+  margin-right:auto;
 }
