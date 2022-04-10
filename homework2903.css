@@ -35,6 +35,11 @@ body {
   flex-grow: 1;
 }
 
+.todo-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .list-text {
   color: #09165f;
   position: absolute;
