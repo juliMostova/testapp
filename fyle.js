@@ -1,3 +1,1 @@
-<script>
-    var text=:"text";
-</script>
+var text = "text";
