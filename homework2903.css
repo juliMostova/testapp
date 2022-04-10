@@ -25,12 +25,16 @@ body {
 }
 .content {
 }
-.conteiner-newtodo {
+.container-new-todo {
+  display: flex;
   background: #e5e5e5;
   border-radius: 6px;
-  margin-left: 50px;
-  width: 150px;
 }
+
+.container-new-todo__input {
+  flex-grow: 1;
+}
+
 .list-text {
   color: #09165f;
   position: absolute;
