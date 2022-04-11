@@ -10,52 +10,55 @@
   <body>
     <div class="todo-wrapper">
       <div class="white-box">
-        <h2 class="label">ToDoList</h2>
+        <div class="max-width-740 padding-vertical-20 margin-horizontal-auto">
+         <h1 class="title">ToDoList</h1>
+        </div>
+        <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
 
-        <div class="content">
-          <div class="container-new-todo">
+            <form class="add-todo-form">
             <input
               type="text"
               placeholder="New todo"
-              class="container-new-todo__input"
-            />
-            <button class="container-new-todo__button">+</button>
+              class="add-todo-form__input" />
+              <button class="add-todo-form__button">+</button>
+            </form>
           </div>
-          <div class="list-text">
-            <h3>You have 10 pending items</h3>
-          </div>
-          <div class="list-name">
+
+          <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
+            <h2 class="info">You have 10 pending items</h2>
+          
+          <div class="overflow margin-top-4">
             <ul class="todo-list">
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Read the book
-                <input type="button" class="button-done" value="Done" />
-              </li>
-              <li>
+                <button class="button-done" type="button" value="">Done </button>
+          </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Pick a project
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button>
               </li>
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Go to the Gym
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button>
               </li>
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Learn JS
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button> 
               </li>
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Don't forget to it
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button> 
               </li>
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Do homework
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button>
               </li>
-              <li>
+              <li class="todo-list__item todo-list__item--border-bottom">
                 Do homework
-                <input type="button" class="button-done" value="Done" />
+                <button class="button-done" type="button" value="">Done</button> 
               </li>
-            </ul>
-          </div>
+            </ul> 
+        </div>
         </div>
       </div>
     </div>
