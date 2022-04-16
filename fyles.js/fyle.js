@@ -1,3 +1,2 @@
-<script>
-    var text=:"text";
-</script>
+
+console.log("Я иду к тебе программирование")
