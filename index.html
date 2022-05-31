@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href ="style.css">
-    <script src :"fyle.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="homework2903.css" />
+  </head>
+  <body>
+    <div class="todo-wrapper">
+      <div class="white-box">
+        <div class="max-width-740 padding-vertical-20 margin-horizontal-auto">
+         <h1 class="title">ToDoList</h1>
+        </div>
+        <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
 
-    <title>Nature</title>
-</head>
-<body>
-    <h1>Protect the environment</h1>
-    <p><em>Быстрый </em>прогресс науки и техники, с одной стороны, позволил удовлетворить все потребности человеческого общества, но с другой стороны — ухудшил условия его существования.
-    </p>
-</body>
+            <form class="add-todo-form">
+            <input
+              type="text"
+              placeholder="New todo"
+              class="add-todo-form__input" />
+              <button class="add-todo-form__button">+</button>
+            </form>
+          </div>
+
+          <div class="max-width-740 padding-vertical-20 margin-horizontal-auto margin-top-32">
+            <h2 class="info">You have 10 pending items</h2>
+          
+          <div class="overflow margin-top-4">
+            <ul class="todo-list">
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Read the book
+                <button class="button-done" type="button" value="">Done </button>
+          </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Pick a project
+                <button class="button-done" type="button" value="">Done</button>
+              </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Go to the Gym
+                <button class="button-done" type="button" value="">Done</button>
+              </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Learn JS
+                <button class="button-done" type="button" value="">Done</button> 
+              </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Don't forget to it
+                <button class="button-done" type="button" value="">Done</button> 
+              </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Do homework
+                <button class="button-done" type="button" value="">Done</button>
+              </li>
+              <li class="todo-list__item todo-list__item--border-bottom">
+                Do homework
+                <button class="button-done" type="button" value="">Done</button> 
+              </li>
+            </ul> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
